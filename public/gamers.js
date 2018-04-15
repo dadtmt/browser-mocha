@@ -1,3 +1,8 @@
-const makeGamersList = gamers => `<div>This is my list</div>`
+const makeGamersList = gamers => `
+  <ul>
+    <li>Thomas plays XCOM</li>
+    <li>Clément plays GTA</li>
+  </ul>
+`
 
 export default makeGamersList
