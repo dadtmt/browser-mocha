@@ -1,4 +1,4 @@
-export const makeGamer = gamer => `<li>Thomas plays XCOM</li>`
+export const makeGamer = gamer => `<li>${gamer.name} plays ${gamer.game}</li>`
 
 const makeGamersList = gamers => `
   <ul>
