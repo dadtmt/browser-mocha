@@ -1,3 +1,5 @@
+import makeGamersList from './gamers.js';
+
 const mainDiv = document.getElementById('main')
 
 const render = html => {
@@ -19,7 +21,5 @@ const wilders = [
       game: 'Diablo 2'
   }
 ]
-
-const makeGamersList = gamers => `<div>This is my list</div>`
 
 render(makeGamersList(wilders))

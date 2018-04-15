@@ -15,7 +15,7 @@ const html = `
   <body>
     <h1>Display some html with js</h1>
     <div id="main"></div>
-    <script src="/app.js"></script>
+    <script type="module"  src="/app.js"></script>
   </body>
 </html>`
 
