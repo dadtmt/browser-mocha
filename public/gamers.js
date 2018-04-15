@@ -1,3 +1,3 @@
-const makeGamersList = gamers => `<div>This is my list</div>`
+const makeGamersList = gamers => null
 
 export default makeGamersList
