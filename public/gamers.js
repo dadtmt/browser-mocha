@@ -1,11 +1,6 @@
 export const makeGamer = gamer => `<li>${gamer.firstName} plays ${gamer.game}</li>`
 
-const makeGamersList = gamers => {
-  let lis = ''
-  for (let gamer of gamers) {
-    lis += makeGamer(gamer)
-  }
-  return `<ul>${lis}</ul>`
-}
+const makeGamersList = gamers => `<ul>${gamers.reduce((acc, gamer) => acc + makeGamer(gamer), '')}</ul>`
+
 
 export default makeGamersList
