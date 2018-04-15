@@ -1,3 +1,5 @@
+export const makeGamer = gamer => null
+
 const makeGamersList = gamers => `
   <ul>
     <li>Thomas plays XCOM</li>
