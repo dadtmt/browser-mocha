@@ -20,6 +20,6 @@ const wilders = [
   }
 ]
 
-render(`
-  <p>I want to render the wilders list here</p>
-`)
+const makeGamersList = gamers => `<div>This is my list</div>`
+
+render(makeGamersList(wilders))
