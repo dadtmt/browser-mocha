@@ -40,4 +40,7 @@ describe('makeGamer', () => {
   it('should return a string', () => {
     chai.assert.typeOf(makeGamer(oneGamer), 'string')
   })
+  it ('should return an html string of a gamer li element', () => {
+    chai.assert.equal(makeGamer(oneGamer), expectedMakeGamerResult)
+  })
 })

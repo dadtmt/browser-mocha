@@ -1,4 +1,4 @@
-export const makeGamer = gamer => "a string"
+export const makeGamer = gamer => `<li>Thomas plays XCOM</li>`
 
 const makeGamersList = gamers => `
   <ul>
